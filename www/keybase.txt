@@ -1,0 +1,153 @@
+==================================================================
+https://keybase.io/trustyjaid
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://damez.net
+  * I am trustyjaid (https://keybase.io/trustyjaid) on keybase.
+  * I have a public key with fingerprint 5C6C D889 C183 FE28 B5B8  8796 AF24 FAD2 0DF6 BD3C
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01012fd7ebba2241764694ece35442d8423c7db42a18b7af4405293b5d439e0340250a",
+            "fingerprint": "5c6cd889c183fe28b5b88796af24fad20df6bd3c",
+            "host": "keybase.io",
+            "key_id": "af24fad20df6bd3c",
+            "kid": "01012fd7ebba2241764694ece35442d8423c7db42a18b7af4405293b5d439e0340250a",
+            "uid": "fcbb987a7fdc50bb23770722b6512d19",
+            "username": "trustyjaid"
+        },
+        "revoke": {
+            "sig_ids": [
+                "ca4a15dc821a68469e5278c527b88a668957df0b41ec7de7c1cbfd6472a6ea3a0f"
+            ]
+        },
+        "service": {
+            "hostname": "damez.net",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1489312718,
+    "expire_in": 157680000,
+    "prev": "45e5f1c825a01277fb83ac2d1a92f449ad246fb0b0e122f972746dfca47f5838",
+    "seqno": 22,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+owGtkm1QFVUYxy/cMMFBIcZBBDQ2Syyk3bPvNxSlKbgMYKWICHpnz+5ZXKB7L/cu
+GN6RQaIMBAdkaoBJi6IxpUBRnCgJE8kZSQV5iZcZDdGCpigZcAak6FzGvvWx/bBn
+zpn/839+5/+cCl+jwdOjad3cLd+HbVEeXRPQsKsz+JaLgDYlnzC5iCy0uKBsBTl1
+S5amECaCpEgKqAqPIJQAYCieYziRQTKiWYYBisAAWuYVyACJEiAvqQxDskCkIasw
+tIhImiEBS0pEBKFq1gzksDs0q45tWZmTFUEQZUqgVQQEyEJB4EVOUgGjSgogFZWD
+Ci3jwn02p7sCw0HJiSI1Gz7DG8si3n/o/2fu3EU7VYZQFHiJVxWZJSEENM+TPACQ
+YymgUKJb6EQOq/QmwmrdkevU8zMlXHowgnCgPFsWcifr1DIwtpMwpRGyxEgUq8gC
+oCROwGyIBbwg4x8OQuI4QWR5RSUhQyHMiXiZkqGqcAwPJA5JtESqxB7sjXvmafKi
+uTunx/0VvByItCIdY9kdNt0m27Lx8T5dt5vcRHq+3S07tx9By2MHC9SsCh4RrshD
+DqdmsxImCktlXXNbUowg0hTgKSGCQG/ZNQeyaG4Fy3MCiT93H5SHPRkWsSqFr8VK
+eAA8r0KBlmQckSQCHLKIZ8VwKiQhiSgAVJEHPMMpKo6DV1mBFgj3nXKsNsIEAAaV
+MrAnjs0q6bkORBz0KfEMecLg4WlY4uXpfrwGH2+/f1801exnqCy496Kzw/7alcH8
+/hfgpnzj52N127e0rXku4mzw1/tbhVhX8mjywrORCcn29HJX7TdTM1+42jYKQ+2+
+fTFB1rLb933vXRzyNxXvWjU+GdNzKPEp44mOpNWWvV+Zc7bOe3UW/nljtvpsd0/q
+5gtnvqstr/v2RlTR6LWqmqDO7soG8b3q0a6PduprE+qPfnjhUkdK7Q6T1yued9sV
+s3k8dv3V+LKh739vvLPl4SEreulk/6tHik16+sLgkk92DpUGEg2TjrGw1skCNrXg
+g4bq+arem79m9DlKfkwM98/JGSnKmJhJ0RGILlqzfGmYbuKahSTqwcqSZ8LWP41G
+TpWeX1Zq33x05sgJj0bNNr/tr1Bz/bt9w1EhQ/nOhdDe4qa3B86kJVinBir7r5q9
+Iv8InIsIv7uhfOuOmIDLFdxE0qPJl2sCxqYLL8W3Xu9tLiRWBbHbR1KHC1yGZd6t
+EZYmaJwuPr7xdnqjma/e4G+6NtUdlL37ss9nxpmwxrnzIeSxOa+opcTzxuIDu/XQ
+5R+3r+yBiadKeobX3YmK9m2JS+I9Wsw/tKzwjnvkk8Jv63VFt9S/3lgx6CtPpx0r
+MAcnj49+Gf1+z3j4bO7Apv6aX/a+EV9VcO7+/IqTAZllfj/RsQ9+Pv1bb8KTa+sc
+A5+uXrh//cps+Z7M0xf/DrZ6aXGTxycC33EWNvXd7Dr8Dw==
+=cU37
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/trustyjaid
+
+==================================================================
+
+==================================================================
+https://keybase.io/trustyjaid
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://trustyjaid.com
+  * I am trustyjaid (https://keybase.io/trustyjaid) on keybase.
+  * I have a public key with fingerprint 5C6C D889 C183 FE28 B5B8  8796 AF24 FAD2 0DF6 BD3C
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01012fd7ebba2241764694ece35442d8423c7db42a18b7af4405293b5d439e0340250a",
+            "fingerprint": "5c6cd889c183fe28b5b88796af24fad20df6bd3c",
+            "host": "keybase.io",
+            "key_id": "af24fad20df6bd3c",
+            "kid": "01012fd7ebba2241764694ece35442d8423c7db42a18b7af4405293b5d439e0340250a",
+            "uid": "fcbb987a7fdc50bb23770722b6512d19",
+            "username": "trustyjaid"
+        },
+        "service": {
+            "hostname": "trustyjaid.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1489312976,
+    "expire_in": 157680000,
+    "prev": "03b9322a162dd18973f668e2c54775d0a622929b3fb79be29ad0a0f084ab0369",
+    "seqno": 23,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+owGtkmtMHFUYhpeFNoUGipBQzKKhI8ptxZkzs3MhvdiWQMFSEkBdG2CZyxkYKLs4
+u6wldLGJCJFUhVg0NhRa0pubhltLAiKKXJpKQQ1ktYIi3eoWKoVtcRVaJc4Q/aU/
+PX9Oznee9z3v9+U0BPtrtH4dMQ8ng38b2Ol3Y4HTGEej7lYhnEWoRJKrkFK4scEj
+ArTaTKWSgCQjKIZiQBQoyHEsAARGkQTJEJCHuIEggEATAOcpgSMAi9EcxYoEgRoA
+g3MGgcAZiOIECgwoi+gRUTIXQblclsw2xdbAk7xA0wyP0bgIAc0ZOJqmGJIVASGy
+AkAFkeQEnFeExRarqlDCcawVJkkWpaYcTBvx/oP/n3NXbNiJPMcxNMVSosAbUI4D
+OEWhFAAcacCAgDEqaIWymS2DCm2TK6y2yhJWkTr0iFK3SzxUR6v28i8mibeUKfpy
+2WKz8JYjyl2xzVaerEptleUq+xrkTH+7mDjJLCijVAR2KFslixlJxhSSt0mqLUbQ
+DI4BhiL1CDxaLsnQJKmEgSJpVFnqM9CuzgfnmDwcKO2TQBAwmqFwkSRpCHgDQVEG
+AWVJABjAcLjIUQwHAcMqNVREaYLlUJxUO7bCV80WJBngSlC2SDG1SkVm1lYhQ8QR
+9JY2KkDjp9Vs3qRVf5kmKDD0n6+XOr5tPUYfP7y758PJuMZztTOHzmfnLvpOrvXp
+MokWHr8+1pkVOXLW9Jm7MvJqsZ9uLOBh/ronjHVlREszo945b9qBnMNZ15sJ+1HK
+tdgR27p/82pi34HI0sGueF5wnbvf1kG1FJY4tUTBn8ve1fnuy0ujzjvL7zRW+rvW
+Qn3re4OenU7pCak9dtw9uxN2POc8se+P3Td8l7c3PO4JE6N2zDUerxvpzvylfZv7
+4OF6xxs58W/+uLfTOn96JjU9dSky8IdNbn3BFqPVuCqxGQ/kONG4NKQbnptv23rm
+6YQU/0/t0R2ernt5Lr735XYzEp518NdHY3V2t+fWzD306ueztQ+SdCceLX7ETvjC
+3HEXy3IWRccn1T8fqvg4PyTmlXfHv+k3tt0uxMdp746be5ZnMxIdujkh4xnfOv+e
+rDX3hkeMFu4f7fu9eeDW8spAc2ivZyxd+H4hITHAOVH7+txXIWmTN1f6K6597aAv
+XWhqJRsmCqrtE489cSEwjfyWj44/O0UPl7S1hnVt+eC8+0VXrvML9/sN+/Jfeso7
+1JSXcKz7hVPVFy816bKo9NrTI1MrcpEmONeLLNS/fScfOlpOpkfWyDXLEQFU5q7Y
+/sGf8K2OM8Z2wtO5vSp8+vZ3vkH0VHaEp5fV7FrXN4dkPzk9dSXX2fn8l3er6tbq
+5ftDe67F1lxJ6aH/Ag==
+=h+gt
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/trustyjaid
+
+==================================================================

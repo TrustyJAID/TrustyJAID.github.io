@@ -1,0 +1,47 @@
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www.damez.net$ [NC]
+RewriteRule ^(.*)$ http://damez.net/$1 [R=301,L]
+AddType application/x-httpd-php .html
+
+<filesMatch "\.(htm|html|css|js|php)$">
+AddDefaultCharset UTF-8
+</filesMatch>
+<FilesMatch \.php$>
+      SetHandler application/x-httpd-php
+ </FilesMatch>
+
+# compress text, html, javascript, css, xml:
+AddOutputFilterByType DEFLATE text/plain
+AddOutputFilterByType DEFLATE text/html
+AddOutputFilterByType DEFLATE text/xml
+AddOutputFilterByType DEFLATE text/css
+AddOutputFilterByType DEFLATE application/xml
+AddOutputFilterByType DEFLATE application/xhtml+xml
+AddOutputFilterByType DEFLATE application/rss+xml
+AddOutputFilterByType DEFLATE application/javascript
+AddOutputFilterByType DEFLATE application/x-javascript
+
+<IfModule mod_headers.c>
+  <FilesMatch "\.(js|css|xml|gz)$">
+    Header append Vary Accept-Encoding
+  </FilesMatch>
+</IfModule>
+
+
+# BEGIN EXPIRES
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresDefault "access plus 1 second"
+    ExpiresByType text/css "access plus 1 second"
+    ExpiresByType text/plain "access plus 1 second"
+    ExpiresByType image/gif "access plus 1 week"
+    ExpiresByType image/png "access plus 1 week"
+    ExpiresByType image/jpeg "access plus 1 week"
+    ExpiresByType application/x-javascript "access plus 1 week"
+    ExpiresByType application/javascript "access plus 1 week"
+    ExpiresByType application/x-icon "access plus 1 week"
+    ExpiresByType media/mp3 "access plus 1 week"
+</IfModule>
+# END EXPIRES
+

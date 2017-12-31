@@ -1,0 +1,191 @@
+runtime: python27
+api_version: 1
+threadsafe: True
+
+default_expiration: "30d"
+
+handlers:
+- url: /(.*\.(appcache|manifest))
+  mime_type: text/cache-manifest
+  static_files: www/\1
+  upload: www/(.*\.(appcache|manifest))
+  expiration: "0m"
+
+- url: /(.*\.atom)
+  mime_type: application/atom+xml
+  static_files: www/\1
+  upload: www/(.*\.atom)
+  expiration: "1h"
+
+- url: /(.*\.crx)
+  mime_type: application/x-chrome-extension
+  static_files: www/\1
+  upload: www/(.*\.crx)
+
+- url: /(.*\.css)
+  mime_type: text/css
+  static_files: www/\1
+  upload: www/(.*\.css)
+
+- url: /(.*\.eot)
+  mime_type: application/vnd.ms-fontobject
+  static_files: www/\1
+  upload: www/(.*\.eot)
+
+- url: /(.*\.htc)
+  mime_type: text/x-component
+  static_files: www/\1
+  upload: www/(.*\.htc)
+
+- url: /(.*\.html)
+  mime_type: text/html
+  static_files: www/\1
+  upload: www/(.*\.html)
+  expiration: "1h"
+
+- url: /(.*\.ico)
+  mime_type: image/x-icon
+  static_files: www/\1
+  upload: www/(.*\.ico)
+  expiration: "7d"
+
+- url: /(.*\.js)
+  mime_type: text/javascript
+  static_files: www/\1
+  upload: www/(.*\.js)
+
+- url: /(.*\.json)
+  mime_type: application/json
+  static_files: www/\1
+  upload: www/(.*\.json)
+  expiration: "1h"
+
+- url: /(.*\.m4v)
+  mime_type: video/m4v
+  static_files: www/\1
+  upload: www/(.*\.m4v)
+
+- url: /(.*\.mp4)
+  mime_type: video/mp4
+  static_files: www/\1
+  upload: www/(.*\.mp4)
+
+- url: /(.*\.(ogg|oga))
+  mime_type: audio/ogg
+  static_files: www/\1
+  upload: www/(.*\.(ogg|oga))
+
+- url: /(.*\.ogv)
+  mime_type: video/ogg
+  static_files: www/\1
+  upload: www/(.*\.ogv)
+
+- url: /(.*\.otf)
+  mime_type: font/opentype
+  static_files: www/\1
+  upload: www/(.*\.otf)
+
+- url: /(.*\.rss)
+  mime_type: application/rss+xml
+  static_files: www/\1
+  upload: www/(.*\.rss)
+  expiration: "1h"
+
+- url: /(.*\.safariextz)
+  mime_type: application/octet-stream
+  static_files: www/\1
+  upload: www/(.*\.safariextz)
+
+- url: /(.*\.(svg|svgz))
+  mime_type: images/svg+xml
+  static_files: www/\1
+  upload: www/(.*\.(svg|svgz))
+
+- url: /(.*\.swf)
+  mime_type: application/x-shockwave-flash
+  static_files: www/\1
+  upload: www/(.*\.swf)
+
+- url: /(.*\.ttf)
+  mime_type: font/truetype
+  static_files: www/\1
+  upload: www/(.*\.ttf)
+
+- url: /(.*\.txt)
+  mime_type: text/plain
+  static_files: www/\1
+  upload: www/(.*\.txt)
+
+- url: /(.*\.unity3d)
+  mime_type: application/vnd.unity
+  static_files: www/\1
+  upload: www/(.*\.unity3d)
+
+- url: /(.*\.webm)
+  mime_type: video/webm
+  static_files: www/\1
+  upload: www/(.*\.webm)
+
+- url: /(.*\.webp)
+  mime_type: image/webp
+  static_files: www/\1
+  upload: www/(.*\.webp)
+
+- url: /(.*\.woff)
+  mime_type: application/x-font-woff
+  static_files: www/\1
+  upload: www/(.*\.woff)
+
+- url: /(.*\.xml)
+  mime_type: application/xml
+  static_files: www/\1
+  upload: www/(.*\.xml)
+  expiration: "1h"
+
+- url: /(.*\.xpi)
+  mime_type: application/x-xpinstall
+  static_files: www/\1
+  upload: www/(.*\.xpi)
+
+# image files
+- url: /(.*\.(bmp|gif|ico|jpeg|jpg|png))
+  static_files: www/\1
+  upload: www/(.*\.(bmp|gif|ico|jpeg|jpg|png))
+
+# audio files
+- url: /(.*\.(mid|midi|mp3|wav))
+  static_files: www/\1
+  upload: www/(.*\.(mid|midi|mp3|wav))  
+
+# windows files
+- url: /(.*\.(doc|exe|ppt|rtf|xls|torrent|7z))
+  static_files: www/\1
+  upload: www/(.*\.(doc|exe|ppt|rtf|xls|torrent|7z))
+
+# compressed files
+- url: /(.*\.(bz2|gz|rar|tar|tgz|zip))
+  static_files: www/\1
+  upload: www/(.*\.(bz2|gz|rar|tar|tgz|zip))
+
+# Let's Encrypt Challenges
+- url: /.well-known/acme-challenge/(.*)
+  mime_type: text/plain
+  static_files: www/well-known/acme-challenge/\1
+  upload: www/well-known/acme-challenge/(.*)
+
+# index files
+- url: /(.+)/
+  static_files: www/\1/index.html
+  upload: www/(.+)/index.html
+  expiration: "15m"
+
+- url: /(.+)
+  static_files: www/\1/index.html
+  upload: www/(.+)/index.html
+  expiration: "15m"
+
+# site root
+- url: /
+  static_files: www/index.html
+  upload: www/index.html
+  expiration: "15m"

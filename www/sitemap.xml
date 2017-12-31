@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+   <url>
+
+      <loc>http://www.damez.net/index.html</loc>
+
+      <lastmod>2012-05-10</lastmod>
+
+      <changefreq>monthly</changefreq>
+
+      <priority>1.0</priority>
+
+   </url>
+   <url>
+
+      <loc>http://www.damez.net/index1.html</loc>
+
+      <changefreq>never</changefreq>
+
+
+   </url>
+   <url>
+
+      <loc>http://www.damez.net/index2.html</loc>
+	  
+	  <lastmod>2011-01-12</lastmod>
+
+      <changefreq>never</changefreq>
+
+
+   </url>
+   <url>
+
+      <loc>http://www.damez.net/index3.html</loc>
+	  
+	  <lastmod>2011-02-28</lastmod>
+
+      <changefreq>never</changefreq>
+
+
+   </url>
+   <url>
+
+      <loc>http://www.damez.net/index4.html</loc>
+	  
+	  <lastmod>2011-06-17</lastmod>
+
+      <changefreq>never</changefreq>
+
+
+   </url>
+   <url>
+
+      <loc>http://www.damez.net/index5.html</loc>
+	  
+	  <lastmod>2012-05-10</lastmod>
+
+      <changefreq>never</changefreq>
+
+
+   </url>
+   <url>
+
+      <loc>http://www.damez.net/history/index.html</loc>
+
+      <lastmod>2012-05-10</lastmod>
+
+      <changefreq>monthly</changefreq>
+
+   </url>
+
+   <url>
+
+      <loc>http://www.damez.net/Info/index.html</loc>
+
+      <changefreq>yearly</changefreq>
+
+   </url>
+
+   <url>
+
+      <loc>http://www.damez.net/Pictures/index.html</loc>
+
+      <changefreq>yearly</changefreq>
+
+   </url>
+
+   <url>
+
+      <loc>http://www.damez.net/Videos/index.html</loc>
+
+      <changefreq>yearly</changefreq>
+
+   </url>
+
+   <url>
+
+      <loc>http://www.damez.net/Music/index.html</loc>
+
+      <changefreq>yearly</changefreq>
+
+   </url>
+      <url>
+
+      <loc>http://www.damez.net/Contact/index.html</loc>
+
+      <changefreq>yearly</changefreq>
+
+   </url>
+
+</urlset>

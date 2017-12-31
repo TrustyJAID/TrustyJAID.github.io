@@ -1,0 +1,37 @@
+@charset "utf-8";body{font:100%/1.4 Verdana, Arial, Helvetica, sans-serif;margin:0;padding:0;color:#000;background-image:url(../Images/IMG_0483original.jpg);margin-left:20px;margin-top:20px;margin-right:20px;margin-bottom:20px;background-color:#FFF;}
+h1, h2, h3, h4, h5, h6, p{
+	padding-right: 15px;
+	padding-left: 25px;
+	font-size: 100%;
+}
+a img{border:none;}
+a:link{color:#efc804;text-decoration:underline;}
+a:visited{color:#23d600;text-decoration:underline;}
+a:hover, a:active, a:focus{text-decoration:none;}
+.container{width:100%;max-width:1400px;min-width:600px;background-image:url(../Images/Background%20Texture.png);margin:0 auto;}
+.header{background-color:#000;background-repeat:repeat;background-image: url(../Images/Header.png);min-width:800px;height:130px;z-index: -1;}
+.header1{
+	font-family: "Mistral";
+	font-size: 48px;
+	color: #FFFF00;
+	padding-top: 80px;
+	padding-left: 205px;
+}
+.sidebar1{float:left;width:25%;max-width:200px;background-color:#000;background-image:url(../Images/Sidebar4%20Design.png);height:1000px;background-repeat:no-repeat;}
+.content{width:80%;padding-top:0px;padding-right:0;padding-bottom:0px;padding-left:0px;background-image:url(../Images/Background%20Texture.png); color: #FFFF00}
+.sidebar2{float:left;width:24%;padding:10px;background-color:#FFF;height:1000px;}
+.content ul, .content ol{padding:0 15px 15px 40px;}
+ul.nav{list-style:none;border-top:1px solid #666;margin-bottom:15px;}
+ul.nav li{border-bottom:0px solid #666;}
+ul.nav a, ul.nav a:visited{padding:5px 5px 5px 15px;display:block;text-decoration:none;background:#8090AB;color:#000;}
+ul.nav a:hover, ul.nav a:active, ul.nav a:focus{background:#200c4c;color:#FFF;}
+.footer{background:#200c4c;position:relative;clear:both;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;float:none;text-align:left;font-family:"Lucida Console", Monaco, monospace;}
+.fltrt{float:right;margin-left:8px;}
+.fltlft{float:left;margin-right:8px;}
+.clearfloat{clear:both;height:0;font-size:1px;line-height:0px;}
+[if lte IE 7]>
+.content{margin-right:0px;}
+ul.nav a{zoom:1;}
+<![endif]
+
+body,td,th{font-family:"Comic Sans MS";}
