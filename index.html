@@ -62,7 +62,7 @@ o8DTAPalcsfXh990YVpqJN+0pUH+dd68MBUYcgqnGDd1xsQuaX8e0acNs6GnsnNe
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Come listen to my music or wathc me stream on twitch!">
+    <meta name="description" content="Come listen to my music or watch me stream on twitch!">
     <meta name="author" content="">
     <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
@@ -77,7 +77,7 @@ o8DTAPalcsfXh990YVpqJN+0pUH+dd68MBUYcgqnGDd1xsQuaX8e0acNs6GnsnNe
     <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-    <meta property="og:image" content="https://i.imgur.com/xTCBjl6.png" />
+    <meta property="og:image" content="https://trustyjaid.com/img/cover-small.png" />
     <meta property ="og:image:width" content="500" />
     <meta property ="og:image:height" content="500" />
     <link rel="manifest" href="favicon/manifest.json">
@@ -128,7 +128,7 @@ o8DTAPalcsfXh990YVpqJN+0pUH+dd68MBUYcgqnGDd1xsQuaX8e0acNs6GnsnNe
               <a class="nav-link js-scroll-trigger" href="#music">Info</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#twitch">Twitch</a>
+              <a class="nav-link js-scroll-trigger" href="#video">Video</a>
             </li>
           </ul>
         </div>
@@ -139,12 +139,14 @@ o8DTAPalcsfXh990YVpqJN+0pUH+dd68MBUYcgqnGDd1xsQuaX8e0acNs6GnsnNe
       <div class="container my-auto">
         <div class="row">
           <div class="col-lg-10 mx-auto">
-            <img src="img/logo.gif" height=150 width=150/>
+            <img src="img/logo.gif" />
+            <br>
+            <br>
             <h1 class="text-uppercase" style="color: #D6C91C">
               <strong>TrustyJAID</strong>
             </h1>
             <hr>
-            <img src="img/cover-small.png" height=600 width=600/>
+            <img src="img/cover-small.png" width="100%"/>
           </div>
 
         </div>
@@ -209,28 +211,43 @@ o8DTAPalcsfXh990YVpqJN+0pUH+dd68MBUYcgqnGDd1xsQuaX8e0acNs6GnsnNe
       </div>
     </section>
 
-    <section class="bg-dark", id="twitch">
-      <div class="container text-center">
-        <h2 class="mb-4" style="color: #6441A4 ">Come watch me play games on twitch!</h2>
-        <div id="twitch-embed" align="middle"></div>
+    <section class="bg-dark", id="video">
+      <div class="row">
+        <div class="column col-md-6 text-center">
+          <img src="img/youtube.png" height=100 width=100/>
+          <h2 class="mb-4" style="color: #FF0000 ">YouTube</h2>
+
+          <iframe style="max-width: 560px;" width="100%" height="315" src="https://www.youtube.com/embed/3KJM3BrQKeA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div> 
+        <br>
+        <br>
+        <div class="column col-md-6 text-center">
+          <img src="img/twitch.png" height=100 width=100/>
+          <h2 class="mb-4" style="color: #6441A4 ">twitch</h2>
+          <div id="twitch-embed" ></div>
+
+          <!-- Load the Twitch embed script -->
           <script src="https://embed.twitch.tv/embed/v1.js"></script>
 
-              <!-- Create a Twitch.Embed object that will render within the "twitch-embed" root element. -->
-              <script type="text/javascript">
-                var embed = new Twitch.Embed("twitch-embed", {
-                  width: 640,
-                  height: 360,
-                  channel: "trustyjaid",
-                  layout: "video",
-                  autoplay: true
-                });
+          <!--
+            Create a Twitch.Embed object that will render
+            within the "twitch-embed" root element.
+          -->
+          <script type="text/javascript">
+            var embed = new Twitch.Embed("twitch-embed", {
+              width: "100%",
+              height: 315,
+              channel: "trustyjaid",
+              layout: "video",
+              autoplay: false,
+              muted: true
+            });
 
-                embed.addEventListener(Twitch.Embed.VIDEO_READY, () => {
-                  var player = embed.getPlayer();
-                  player.play();
-                });
-              </script>
-      </div>
+            embed.addEventListener(Twitch.Embed.VIDEO_READY, () => {
+              var player = embed.getPlayer();
+            });
+          </script>
+        </div>     
     </section>
 
 <!--
@@ -349,16 +366,20 @@ o8DTAPalcsfXh990YVpqJN+0pUH+dd68MBUYcgqnGDd1xsQuaX8e0acNs6GnsnNe
             <img src="img/spotify-white.png" height=50 width=50/></a>
             <a href="https://geo.itunes.apple.com/us/artist/trustyjaid/1320934837?mt=1&app=music" target="_blank">
             <img src="img/Apple_Music_Icon.png" height=50 width=50/></a>
+            <a href="https://www.youtube.com/user/TrustyJAID" target="_blank">
+            <img src="img/youtube-white.png" height=50 width=50/></a>
             <a href="https://discord.gg/wVVrqej" target="_blank">
             <img src="img/discord-white.png" height=50 width=50/></a>
             <a href="https://twitter.com/TrustyJAID" target="_blank">
             <img src="img/twitter-white.png" height=50 width=50/></a>
             <a href="https://twitch.tv/trustyjaid" target="_blank">
-            <img src="img/twitch.png" height=50 width=50/></a>
+            <img src="img/twitch-white.png" height=50 width=50/></a>
             <a href="https://github.com/trustyjaid" target="_blank">
             <img src="img/mark-github.png" height=50 width=50/></a>
+            <br>
+            <br>
             <p><script>function shapeshift_click(a,e){e.preventDefault();var link=a.href;window.open(link,'1418115287605','width=700,height=500,toolbar=0,menubar=0,location=0,status=1,scrollbars=1,resizable=0,left=0,top=0');return false;}</script> <a onclick="shapeshift_click(this, event);" href="https://shapeshift.io/shifty.html?destination=16W5nsQyEbE2zRNbLxTxJmJDmvSiE1aLWi&amp;output=BCH&amp;apiKey=5b9140378b3fd8c683998e9bf09b98dac10f24b6d1f4825670001ad2b20cf89b8312d8552ced2da22179a91a084b7603228b748b38c116b3a4f533adba8d451f"><img src="https://shapeshift.io/images/shifty/xs_dark_ss.png" class="ss-button"></a></br>
-
+            <br>
             <p class="mb-5" style="color: #D6C91C">Copyright &copy; 2009-<script type="text/javascript"> var year = new Date(); document.write(year.getFullYear());</script> James Derksen.</p>
             <p></p>
 

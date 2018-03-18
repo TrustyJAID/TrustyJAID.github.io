@@ -39,6 +39,15 @@ h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
+#cover-image img{
+  width: 100%;
+}
+
+#logo-image img{
+  width: 150;
+  height: 150;
+}
+
 .bg-primary {
   background-color: #D6C91C !important;
 }
@@ -171,7 +180,7 @@ header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
   background-color: #1B153B;
-  /*background-image: url("../img/header.jpg");*/
+  /*background-image: url("../img/cover-small.png");*/
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -287,6 +296,10 @@ header.masthead p {
 
 .text-primary {
   color: #D6C91C !important;
+}
+
+.twitch-embed {
+  max-width: 560px;
 }
 
 .btn {
