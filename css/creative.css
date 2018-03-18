@@ -12,7 +12,7 @@ body {
 hr {
   max-width: 50px;
   border-width: 3px;
-  border-color: #D6C91C;
+  border-color: #E6D705;
 }
 
 hr.light {
@@ -20,14 +20,14 @@ hr.light {
 }
 
 a {
-  color: #D6C91C;
+  color: #E6D705;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
 }
 
 a:hover {
-  color: #D6C91C;
+  color: #E6D705;
 }
 
 h1,
@@ -49,7 +49,7 @@ h6 {
 }
 
 .bg-primary {
-  background-color: #D6C91C !important;
+  background-color: #E6D705 !important;
 }
 
 .bg-dark {
@@ -70,13 +70,13 @@ section {
 
 ::-moz-selection {
   color: #1B153B;
-  background: #D6C91C;
+  background: #E6D705;
   text-shadow: none;
 }
 
 ::selection {
   color: #1B153B;
-  background: #D6C91C;
+  background: #E6D705;
   text-shadow: none;
 }
 
@@ -102,12 +102,12 @@ img::-moz-selection {
 #mainNav .navbar-brand {
   font-weight: 700;
   text-transform: uppercase;
-  color: #D6C91C;
+  color: #E6D705;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
 #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #D6C91C;
+  color: #E6D705;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link,
@@ -115,17 +115,17 @@ img::-moz-selection {
   font-size: .9rem;
   font-weight: 700;
   text-transform: uppercase;
-  color: #D6C91C;
+  color: #E6D705;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-  color: #D6C91C;
+  color: #E6D705;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
-  color: #D6C91C!important;
+  color: #E6D705!important;
   background-color: transparent;
 }
 
@@ -295,7 +295,7 @@ header.masthead p {
 }
 
 .text-primary {
-  color: #D6C91C !important;
+  color: #E6D705 !important;
 }
 
 #twitch-embed {
@@ -316,8 +316,8 @@ header.masthead p {
 }
 
 .btn-primary {
-  background-color: #D6C91C;
-  border-color: #D6C91C;
+  background-color: #E6D705;
+  border-color: #E6D705;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
