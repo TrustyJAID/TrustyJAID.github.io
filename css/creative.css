@@ -298,8 +298,9 @@ header.masthead p {
   color: #D6C91C !important;
 }
 
-.twitch-embed {
+#twitch-embed {
   max-width: 560px;
+  align-content: center;
 }
 
 .btn {

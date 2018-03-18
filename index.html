@@ -87,7 +87,7 @@ o8DTAPalcsfXh990YVpqJN+0pUH+dd68MBUYcgqnGDd1xsQuaX8e0acNs6GnsnNe
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="TrustyJAID" />
     <meta data-react-helmet="true" property="og:title" content="TrustyJAID.com"/>
-    <meta data-react-helmet="true" property="og:description" content="Come listen to my music or wathc me stream on twitch!"/>
+    <meta data-react-helmet="true" property="og:description" content="Come listen to my music or watch me stream on twitch!"/>
     <meta name="twitter:site" content="@TrustyJAID" />
     <meta name="twitter:creator" content="@TrustyJAID" />
 
@@ -181,28 +181,32 @@ o8DTAPalcsfXh990YVpqJN+0pUH+dd68MBUYcgqnGDd1xsQuaX8e0acNs6GnsnNe
         <div class="row">
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
-              <img src="img/spotify.png" height=100 width=100/>
+              <a href="https://geo.itunes.apple.com/us/artist/trustyjaid/1320934837?mt=1&app=music" target="_blank">
+              <img src="img/spotify.png" height=100 width=100/></a>
               <h3 class="mb-3" style="color: #1db954">Spotify</h3>
               <iframe src="https://open.spotify.com/embed/album/4DmmtNXMvikPE7ovCQttGM" width="250" height="500px" frameborder="0" allowtransparency="true"></iframe>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
-              <img src="img/apple-music.png" height=100 width=100/>
+              <a href="https://geo.itunes.apple.com/us/artist/trustyjaid/1320934837?mt=1&app=music" target="_blank">
+              <img src="img/apple-music.png" height=100 width=100/></a>
               <h3 class="mb-3" style="color: #fff">Apple Music</h3>
               <iframe src="https://tools.applemusic.com/embed/v1/album/1320934533?country=us" height="500px" width="250px" frameborder="0" allowtransparency="true"></iframe> 
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
-              <img src="img/hypesquad-blurple.png" height=100 width=100/>
+              <a href="https://discord.gg/wVVrqej" target="_blank">
+              <img src="img/hypesquad-blurple.png" height=100 width=100/></a>
               <h3 class="mb-3" style="color: #7289DA">Discord</h3>
               <iframe src="https://discordapp.com/widget?id=321105104931389440&theme=dark" width="250" height="500" allowtransparency="true" frameborder="0"></iframe>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
-              <img src="img/twitter.png" height=100 width=100/>
+              <a href="https://twitter.com/TrustyJAID" target="_blank">
+              <img src="img/twitter.png" height=100 width=100/></a>
               <h3 class="mb-3" style="color: #00aced">Twitter</h3>
               <a class="twitter-timeline" data-width="250" data-height="500" data-theme="dark" href="https://twitter.com/TrustyJAID?ref_src=twsrc%5Etfw">Tweets by TrustyJAID</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
             </div>
@@ -212,150 +216,52 @@ o8DTAPalcsfXh990YVpqJN+0pUH+dd68MBUYcgqnGDd1xsQuaX8e0acNs6GnsnNe
     </section>
 
     <section class="bg-dark", id="video">
-      <div class="row">
-        <div class="column col-md-6 text-center">
-          <img src="img/youtube.png" height=100 width=100/>
-          <h2 class="mb-4" style="color: #FF0000 ">YouTube</h2>
-
-          <iframe style="max-width: 560px;" width="100%" height="315" src="https://www.youtube.com/embed/3KJM3BrQKeA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        </div> 
-        <br>
-        <br>
-        <div class="column col-md-6 text-center">
-          <img src="img/twitch.png" height=100 width=100/>
-          <h2 class="mb-4" style="color: #6441A4 ">twitch</h2>
-          <div id="twitch-embed" ></div>
-
-          <!-- Load the Twitch embed script -->
-          <script src="https://embed.twitch.tv/embed/v1.js"></script>
-
-          <!--
-            Create a Twitch.Embed object that will render
-            within the "twitch-embed" root element.
-          -->
-          <script type="text/javascript">
-            var embed = new Twitch.Embed("twitch-embed", {
-              width: "100%",
-              height: 315,
-              channel: "trustyjaid",
-              layout: "video",
-              autoplay: false,
-              muted: true
-            });
-
-            embed.addEventListener(Twitch.Embed.VIDEO_READY, () => {
-              var player = embed.getPlayer();
-            });
-          </script>
-        </div>     
-    </section>
-
-<!--
-                <i class="fa fa-4x fa-diamond text-primary mb-3 sr-icons"></i>
-    <section class="p-0" id="portfolio">
-      <div class="container-fluid p-0">
-        <div class="row no-gutters popup-gallery">
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/1.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/1.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Category
-                  </div>
-                  <div class="project-name">
-                    Project Name
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/2.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/2.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Category
-                  </div>
-                  <div class="project-name">
-                    Project Name
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/3.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/3.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Category
-                  </div>
-                  <div class="project-name">
-                    Project Name
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/4.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/4.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Category
-                  </div>
-                  <div class="project-name">
-                    Project Name
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/5.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/5.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Category
-                  </div>
-                  <div class="project-name">
-                    Project Name
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/6.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/6.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Category
-                  </div>
-                  <div class="project-name">
-                    Project Name
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading" style="color: #D6C91C">Video</h2>
+        <hr class="my-4">
       </div>
+      <div class="container">
+        <div class="row">
+          <div class="column col-md-6 text-center">
+            <a href="https://www.youtube.com/user/TrustyJAID" target="_blank">
+            <img src="img/youtube.png" height=100 width=100/></a>
+            <h2 class="mb-4" style="color: #FF0000 ">YouTube</h2>
+
+            <iframe style="max-width: 560px;" width="100%" height="315" src="https://www.youtube.com/embed/3KJM3BrQKeA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div> 
+          <br>
+          <br>
+          <div class="column col-md-6 text-center">
+            <a href="https://twitch.tv/trustyjaid" target="_blank">
+            <img src="img/twitch.png" height=100 width=100/></a>
+            <h2 class="mb-4" style="color: #6441A4 ">twitch</h2>
+            <div id="twitch-embed" ></div>
+
+            <!-- Load the Twitch embed script -->
+            <script src="https://embed.twitch.tv/embed/v1.js"></script>
+
+            <!--
+              Create a Twitch.Embed object that will render
+              within the "twitch-embed" root element.
+            -->
+            <script type="text/javascript">
+              var embed = new Twitch.Embed("twitch-embed", {
+                width: "100%",
+                height: 315,
+                channel: "trustyjaid",
+                layout: "video",
+                autoplay: false,
+                muted: true
+              });
+
+              embed.addEventListener(Twitch.Embed.VIDEO_READY, () => {
+                var player = embed.getPlayer();
+              });
+            </script>
+          </div>
+        </div>    
     </section>
 
-    <section class="bg-dark text-white">
-      <div class="container text-center">
-        <h2 class="mb-4">Free Download at Start Bootstrap!</h2>
-        <a class="btn btn-light btn-xl sr-button" href="http://startbootstrap.com/template-overviews/creative/">Download Now!</a>
-      </div>
-    </section>
--->
     <section id="footer">
       <div class="container">
         <div class="row">
